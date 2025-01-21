@@ -1,0 +1,15 @@
+└── app
+    └── main.py
+    └── model
+        └── dog_vs_cat_model_v2.h5
+    └── templates
+        └── index.html
+    └── __pycache__
+        └── main.cpython-312.pyc
+└── directorio.py
+└── docker-compose.yml
+└── Dockerfile
+└── nombre_archivo.txt
+└── salida_arbol.txt
+
+No se encontraron los archivos específicos.

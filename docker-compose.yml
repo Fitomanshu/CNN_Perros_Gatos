@@ -1,0 +1,16 @@
+
+services:
+  ufast:
+    image: ufast2
+    container_name: ufast-app
+    stdin_open: true       # Keep the container's standard input open
+    tty: true              # Allocate a pseudo-TTY
+    restart: always        # Ensure the container restarts automatically
+    ports:
+      - "8040:8000"
+    volumes:
+      - ./app:/app
+    working_dir: /app
+    #command: 
+    #command: uvicorn main:app --host 0.0.0.0 --port 8000
+
